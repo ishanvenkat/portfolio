@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ishan Venkatesh</title>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="./styles.css">
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light text-dark">
+      <div class="container">
+        <a class="navbar-brand" href="./index.html">
+          <i class="bi bi-android2 text-success bg-light"></i>
+          Ishan
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="./index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="./resume.html">Resume</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./projects.html">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="./publications.html">Publications</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <main class="container">
+      <section class="summary">
+        <div class="d-flex my-5 py-3 flex-column align-items-center justify-content-center text-center">
+          <p class="fs-3 fw-bold">Publications</p>
+          <p class="w-50">Summary of research project publications</p>
+        </div>
+      </section>
+      <section class="list">
+        <div class="card border-info mb-3" style="max-width: 100%;">
+          <div class="card-header text-success fw-bold fs-4">Machine Learning</div>
+          <div class="card-body">
+            <h5 class="card-title">Rocket Trajectory Optimization</h5>
+            <p class="card-text fst-italic">
+              Optimization of rocket launch parameters using Reinforcement Learning.
+            </p>
+            <p class="card-text fst-italic">
+              Researched several ML models to represent rocket launch parameters, performed data analysis, model optimization and other ML techniques to model control of rocket parameters so as to reach orbit.
+              Collaborated with team of other high school students to conduct research and publish paper online.
+            </p>
+            <a target="blank" href="./media/rocket_trajectory_opt_paper.pdf"><button type="button" class="btn btn-dark border border-secondary border-2">Research Paper</button></a>
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">AI Chatbot Application</h5>
+            <p class="card-text fst-italic">
+              AI chatbot application that helps understand the significance of UN-gifted artifacts.
+            </p>
+            <p class="card-text fst-italic">
+              Used Google Gemini API to develop a chatbot application to analyze collected data an generate responses to questiosn about artifact gifts.
+              Conducted research and published article documenting methodology and results.
+            </p>
+            <a target="blank" href="https://mehtaplus.medium.com/creating-an-ai-chatbot-that-helps-understand-the-significance-of-a-un-gifted-artifact-3ce59c67cb5c"><button type="button" class="btn btn-dark border border-secondary border-2">Medium Article</button></a>
+          </div>
+        </div>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"></script>
+</body>
+
+</html>
