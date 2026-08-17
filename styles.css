@@ -5,3 +5,10 @@
   font-family:'Poppins', sans-serif;
   font-weight: 300px;
 }
+
+.introduction .profile-photo {
+  width: 18rem;
+  height: 18rem;
+  object-fit: cover;
+  object-position: center 25%;
+}
