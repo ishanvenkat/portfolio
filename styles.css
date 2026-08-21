@@ -12,3 +12,17 @@
   object-fit: cover;
   object-position: center 25%;
 }
+
+.card-body ul:has(+ .project-links) {
+  margin-bottom: 0;
+}
+
+.card-body ul:has(+ .project-links) > li:last-child {
+  margin-bottom: 0;
+}
+
+.card-body .project-links {
+  padding-left: 2rem;
+  margin-top: 0.125rem;
+  margin-bottom: 0.5rem;
+}
